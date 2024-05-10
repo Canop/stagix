@@ -1,0 +1,9 @@
+[package]
+name = "stagix"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gix = { version = "0.62", features = ["status", "index", "dirwalk", "excludes", "attributes"] }
+gix-dir = "0.4"
+gix-status = "0.9"
